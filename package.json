@@ -1,0 +1,29 @@
+{
+  "name": "node-template",
+  "version": "0.1.0",
+  "description": "Template Node Server",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node test/src/index"
+  },
+  "repository": "git@github.com:silentorb/node-template.git",
+  "devDependencies": {
+    "@types/es6-promise": "0.0.32",
+    "@types/express": "^4.0.35",
+    "@types/mocha": "^2.2.39",
+    "@types/node": "^7.0.5",
+    "mocha": "^3.2.0",
+    "source-map-support": "^0.4.14",
+    "typescript": "^2.1.6"
+  },
+  "dependencies": {
+    "@types/sequelize": "^3.4.43",
+    "express": "^4.14.1",
+    "sequelize": "^3.30.4",
+    "vineyard-lawn": "0.4.x",
+    "vineyard-model": "0.2.x",
+    "vineyard-users": "0.3.x"
+  }
+}

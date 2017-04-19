@@ -6,7 +6,7 @@ import * as modeling from './model'
 import {Model} from "./model";
 import {Modeler} from "vineyard-ground";
 
-const secret = require('../config/secret.json')
+const secret = require('../config/secrets.json')
 
 export class Server {
   private server: lawn.Server

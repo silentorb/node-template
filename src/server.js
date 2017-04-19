@@ -1,10 +1,11 @@
 "use strict";
-var lawn = require('vineyard-lawn');
+Object.defineProperty(exports, "__esModule", { value: true });
+var lawn = require("vineyard-lawn");
 var general = require('../config/general.json');
-var endpoint = require('./endpoints');
-var Sequelize = require('sequelize');
-var modeling = require('./model');
-var secret = require('../config/secret.json');
+var endpoint = require("./endpoints");
+var Sequelize = require("sequelize");
+var modeling = require("./model");
+var secret = require('../config/secrets.json');
 var Server = (function () {
     function Server() {
         this.server = new lawn.Server();

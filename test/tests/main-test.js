@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var server_1 = require("../../src/server");
 var common_fixture_1 = require("../fixtures/common-fixture");
 require('source-map-support').install();

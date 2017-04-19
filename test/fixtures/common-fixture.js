@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Common_Fixture = (function () {
     function Common_Fixture(model) {
         this.model = model;
